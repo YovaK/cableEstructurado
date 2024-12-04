@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/stylo.css">
+</head>
+<body>
+    <header id="ini">
+        <img class="logo" src="img/log.png" alt="Logo">
+        <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+        <nav class="nav" id="nav">
+            <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
+            <ul class="nav-list">
+                <li><a href="index.html">INICIO</a></li>
+            </ul>
+        </nav>
+    </header>    
+    <script src="acciones.js"></script>
+    <main>
+        <section class="product-menu">
+            <!--10 productos en cartas-->
+            <!--PRODUCTO1-->
+            <div class="product-card" data-name="Cable estructurado" data-price="00">
+                <img src="img/1.jpg" alt="producto 1">
+                <h2>Cable en Rack</h2>
+                <p class="price">000</p>
+                <button onclick="showDetails(this)">Ver Detalles</button>
+            </div>
+            <!--PRODUCTO2-->
+            <div class="product-card" data-name="Router" data-price="00">
+                <img src="img/2.jpg" alt="producto 2">
+                <h2>Router 24 Puertos</h2>
+                <p class="price">000</p>
+                <button onclick="showDetails(this)">Ver Detalles</button>
+            </div>
+            <!--PRODUCTO3-->
+            <div class="product-card" data-name="tipos de Cables" data-price="00">
+                <img src="img/3.jpg" alt="producto 3">
+                <h2>Tipos de calbles</h2>
+                <p class="price">000</p>
+                <button onclick="showDetails(this)">Ver Detalles</button>
+            </div>
+            <!--PRODUCTO4-->
+            <div class="product-card" data-name="Coneccion Swicht" data-price="00">
+                <img src="img/4.jpg" alt="producto 4">
+                <h2>Swicht de 24 Puertos</h2>
+                <p class="price">$000</p>
+                <button onclick="showDetails(this)">Ver Detalles</button>
+            </div>
+            <!--PRODUCTO5-->
+            <div class="product-card" data-name="Cable estructurado en Rack
+             " data-price="00">
+                <img src="img/5.jpg" alt="producto 5">
+                <h2>Servidor</h2>
+                <p class="price">000</p>
+                <button onclick="showDetails(this)">Ver Detalles</button>
+            </div>
+            <!--PRODUCTO6-->
+            <div class="product-card" data-name="Servidor
+            " data-price="00">
+                <img src="img/6.jpg" alt="producto 6">
+                <h2>Servidor</h2>
+                <p class="price">000</p>
+                <button onclick="showDetails(this)">Ver Detalles</button>
+            </div>
+            <!--PRODUCTO7-->
+            <div class="product-card" data-name="Cable estructurado en Edificio
+            " data-price="00">
+                <img src="img/7.jpg" alt="producto 7">
+                <h2>Instalacion</h2>
+                <p class="price">000</p>
+                <button onclick="showDetails(this)">Ver Detalles</button>
+            </div>
+            <!--PRODUCTO8-->
+            <div class="product-card" data-name="Servidor" data-price="00">
+                <img src="img/8.jpg" alt="producto 8">
+                <h2>Servidor</h2>
+                <p class="price">000</p>
+                <button onclick="showDetails(this)">Ver Detalles</button>
+            </div>
+            <!--PRODUCTO9-->
+            <div class="product-card" data-name="Servidor" data-price="00">
+                <img src="img/9.jpg" alt="producto 9">
+                <h2>Servidor</h2>
+                <p class="price">000</p>
+                <button onclick="showDetails(this)">Ver Detalles</button>
+            </div>
+            <!--PRODUCTO10-->
+            <div class="product-card" data-name="Servidor
+            " data-price="00">
+                <img src="img/10.jpg" alt="producto 10">
+                <h2>Servidor</h2>
+                <p class="price">000</p>
+                <button onclick="showDetails(this)">Ver Detalles</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;2024 interactive product menu</p>
+    </footer>
+    <script src="script/script.js"></script>
+    <script src="script/acciones.js"></script>
+</body>
+</html>
